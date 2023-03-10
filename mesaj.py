@@ -31,8 +31,8 @@ def anonymous_chat():
 
         response = requests.post('https://chatroll.com/service/call/plaincall/ServiceInterface.sendMessage.req', headers=headers, cookies=cookies, data=data)
         if response.status_code == 501:
-            print('[+] Sent..')
+            print('[+] GÖNDERİLDİ..')
         else:
-            print('[+] Failed.. Try again!')
+            print('[+] Olmadı.. Tekrar dene!')
 if __name__ == "__main__":
     anonymous_chat()
