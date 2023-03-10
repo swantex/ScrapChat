@@ -40,7 +40,7 @@ def main():
             break
         if premsg != msg:
             c1 = bcolors.WARNING
-            if name.text == ' (Guest)':
+            if name.text == ' (MİSAFİR)':
                 c2 = bcolors.FAIL
                 c3 = bcolors.OKBLUE
             else:
